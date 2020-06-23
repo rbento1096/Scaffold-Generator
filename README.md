@@ -1,2 +1,2 @@
 # Scaffold-Generator
-Python code for automatically generate Tissue Engineering Scaffolds for 3D Printing using Rhinoceros Software (WIP)
+Automatic modelling of CAD models of Scaffolds for Tissue Engineering using Rhinoceros' built-in Python libraries (WIP)
