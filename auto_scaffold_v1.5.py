@@ -18,7 +18,7 @@ select_geometry()
 #######    BASE VARIABLES    #######
 
 if geometry == 1:
-    description = rs.GetInteger("You have selected a scaffold that consists of alternating gear-shaped layers and layers with concentrical circles. This allows for pore interconnectability throughout the scaffold. You will now set the parameters. Press Enter to continue...")
+    description = rs.GetInteger("You have selected a scaffold that consists of alternating gear-shaped layers and layers with concentrical circles with a dense central disk. This allows for pore interconnectability throughout the scaffold. You will now set the parameters. Press Enter to continue...")
     nozzle = rs.GetInteger("Type your nozzle diameter in micrometers:",) #nozzle diameter is a major parameter in 3D printing as it affects the model resolution.
     height = rs.GetInteger("Type your scaffold height in micrometers (WARNING: It must be a multiple of your nozzle diameter):",)
     while height < nozzle:
